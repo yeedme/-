@@ -8,7 +8,9 @@ function getRandomTime() {
 
 // 使用示例
 const randomTimeInSeconds = getRandomTime();
-
+function testConsole(){
+    console.log("test now")
+}
 if (targetElement) {
     targetElement.insertAdjacentHTML('beforebegin', `
         <div id="customButton" style="margin-top: 30px; width:200px; cursor: pointer; color: gray; text-align: center;">_____</div>
